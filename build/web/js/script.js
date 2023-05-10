@@ -1,7 +1,7 @@
 function confirmDelete(id) {
     let answer = confirm("Você tem certeza que deseja excluir esta música?");
     if (answer === true) {
-        post('/Avaliacao01/deleteSong', {id: id});
+        post('/crud_jsp/deleteSong', {id: id});
     }
 }
 
